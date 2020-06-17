@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    color: gray;
+}
+.logo {
+    height: 5vh;
+    margin: 1vh;
+}
+@media screen and (max-width: 692px){
+    .hide-sm{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .hide-md{
+        display: none;
+    }
+}

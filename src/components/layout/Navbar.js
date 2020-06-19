@@ -19,13 +19,13 @@ const NavBar = (props) => {
     return (
         <div className="container-fluid bg-light">
             <div className="row">
-                <div className="col-md-2"/>
+                <div className="col-md-1"/>
                 <div className="col-lg-3 text-center">
                     <Link to='/'>
                         <img src={logo} className="logo"/>
                     </Link>
                 </div>
-                <div className="col-lg-7 text-center">
+                <div className="col-lg-8 text-center">
                     <Navbar color="light" light expand="md">
                         <NavbarBrand href="/" className="hide-md">Home</NavbarBrand>
                         <NavbarToggler onClick={toggle} />

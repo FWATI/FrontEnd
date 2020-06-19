@@ -9,6 +9,25 @@ a {
     height: 5vh;
     margin: 1vh;
 }
+.aboutus {
+    height: 35vh;
+    margin: 3vh;
+}
+.text-parallel-to-abt-img{
+    font-size: 2.5vh;
+}
+.text-below-abt-img{
+    font-size: 2vh;
+}
+.footer-logo{
+    height: 10vh;
+    margin-top: 15vh;
+}
+#footer{
+    background-image: url("./resources/images/Footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @media screen and (max-width: 692px){
     .hide-sm{
         display: none;

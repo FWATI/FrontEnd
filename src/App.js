@@ -7,6 +7,7 @@ import NotFound from "./components/layout/NotFound";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ContactBar from "./components/layout/ContactBar";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                   <Route component={Routes}/>
                   <Route component={NotFound}/>
               </Switch>
+              <Footer />
           </Fragment>
       </Router>
   )

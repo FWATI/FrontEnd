@@ -6,7 +6,7 @@ a {
     color: gray;
 }
 .logo {
-    height: 5vh;
+    height: 8vh;
     margin: 1vh;
 }
 .aboutus {
@@ -22,6 +22,25 @@ a {
 .footer-logo{
     height: 10vh;
     margin-top: 15vh;
+}
+.my_pad{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.bg-img-testimonials{
+    background-image: url("./resources/images/testimonials.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.my_container{
+    height: 200vh;
+}
+.my_text{
+    font-size: 2.5vh;
 }
 #footer{
     background-image: url("./resources/images/Footer.jpg");

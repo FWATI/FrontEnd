@@ -6,6 +6,7 @@ import NavBar from "./components/layout/Navbar";
 import NotFound from "./components/layout/NotFound";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/js/src/index'
 import ContactBar from "./components/layout/ContactBar";
 import Footer from "./components/layout/Footer";
 

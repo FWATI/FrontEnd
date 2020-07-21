@@ -42,6 +42,9 @@ a {
 .my_text{
     font-size: 2.5vh;
 }
+.pad_footer{
+    padding-left: 10vw;
+}
 #footer{
     background-image: url("./resources/images/Footer.jpg");
     background-repeat: no-repeat;

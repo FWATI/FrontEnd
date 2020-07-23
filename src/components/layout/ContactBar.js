@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactBar = () => {
     return (
-        <div className="container-fluid p-0 bg-info">
+        <div className="container-fluid p-0 bg-cyan">
             <div className="row p-0">
                 <div className="col-6 p-0 text-center">
                     <a href="mailto:prashubh27@gmail.com"

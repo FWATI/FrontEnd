@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="container-fluid">
             <div className="row text-center">
-                <div className="col-12">
+                <div className="col-12 m-0 p-0">
                     <img src={logo} alt="Logo" className="footer-logo"/>
                 </div>
             </div>

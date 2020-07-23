@@ -20,7 +20,7 @@ const NavBar = (props) => {
         <div className="container-fluid bg-light">
             <div className="row">
                 <div className="col-md-1"/>
-                <div className="col-xl-3 text-center">
+                <div className="col-xl-3 text-center p-0 m-0">
                     <Link to='/'>
                         <img src={logo} className="logo" alt=""/>
                     </Link>

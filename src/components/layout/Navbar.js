@@ -36,19 +36,19 @@ const NavBar = (props) => {
                                         <NavLink href="/about">About</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="/contactUs">Contact Us</NavLink>
-                                    </NavItem>
-                                    <NavItem>
                                         <NavLink href="/courses">Courses</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="/foundersdesk">Founders Desk</NavLink>
+                                        <NavLink href="/testimonials">Testimonials</NavLink>
                                     </NavItem>
                                     <NavItem>
                                         <NavLink href="/gallery">Gallery</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="/testimonials">Testimonials</NavLink>
+                                        <NavLink href="/franchise">Franchise</NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavLink href="/contactUs">Contact Us</NavLink>
                                     </NavItem>
                                 </Nav>
                             </Collapse>

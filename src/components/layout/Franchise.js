@@ -1,7 +1,7 @@
 import React from "react";
 import Pic from "../../resources/images/aboutus.jpg"
 
-const FoundersDesk = () => {
+const Franchise = () => {
     return (
         <div className="container p-5">
             <div className="row">
@@ -28,4 +28,4 @@ const FoundersDesk = () => {
     )
 }
 
-export default FoundersDesk;
+export default Franchise;

@@ -18,8 +18,8 @@ const Landing = () => {
             <div className="container-fluid">
                 <div className="row sep bg-cyan"/>
                 <div className="row grad">
-                    <div className="col-md-6 LandingCoursesCC"/>
-                    <div className="col-md-6">
+                    <div className="col-xl-6 LandingCoursesCC"/>
+                    <div className="col-xl-6">
                         <div className="my-display-2 text-cyan">
                             Computer Courses
                         </div>
@@ -32,7 +32,8 @@ const Landing = () => {
                 </div>
                 <div className="row sep bg-red"/>
                 <div className="row grad">
-                    <div className="col-md-6">
+                    <div className="col-xl-6 LandingCoursesAccounting show-lg"/>
+                    <div className="col-xl-6">
                         <div className="my-display-2 text-dark-red">
                             Corporate Accounting
                         </div>
@@ -42,12 +43,12 @@ const Landing = () => {
                             We also provide live projects to students for hands-on experience in Accounting.
                         </p>
                     </div>
-                    <div className="col-md-6 LandingCoursesAccounting"/>
+                    <div className="col-xl-6 LandingCoursesAccounting hide-lg"/>
                 </div>
                 <div className="row sep bg-cyan"/>
                 <div className="row grad">
-                    <div className="col-md-6 LandingCoursesFashionDesign"/>
-                    <div className="col-md-6">
+                    <div className="col-xl-6 LandingCoursesFashionDesign"/>
+                    <div className="col-xl-6">
                         <div className="my-display-2 text-cyan">
                             Fashion Designing
                         </div>
@@ -60,7 +61,8 @@ const Landing = () => {
                 </div>
                 <div className="row sep bg-red"/>
                 <div className="row grad">
-                    <div className="col-md-6">
+                    <div className="col-xl-6 LandingCoursesSpokenEnglish show-lg"/>
+                    <div className="col-xl-6">
                         <div className="my-display-2 text-dark-red">
                             Spoken English
                         </div>
@@ -70,12 +72,12 @@ const Landing = () => {
                             Which Boost one's personality and helps in overall development.
                         </p>
                     </div>
-                    <div className="col-md-6 LandingCoursesSpokenEnglish"/>
+                    <div className="col-xl-6 LandingCoursesSpokenEnglish hide-lg"/>
                 </div>
                 <div className="row sep bg-cyan"/>
                 <div className="row grad">
-                    <div className="col-md-6 LandingCoursesECCE"/>
-                    <div className="col-md-6">
+                    <div className="col-xl-6 LandingCoursesECCE"/>
+                    <div className="col-xl-6">
                         <div className="my-display-2 text-cyan">
                             ECCE
                         </div>
@@ -90,7 +92,8 @@ const Landing = () => {
                 </div>
                 <div className="row sep bg-red"/>
                 <div className="row grad">
-                    <div className="col-md-6">
+                    <div className="col-xl-6 LandingCoursesBeautyCulture show-lg"/>
+                    <div className="col-xl-6">
                         <div className="my-display-2 text-dark-red">
                             Beauty Culture
                         </div>
@@ -101,7 +104,7 @@ const Landing = () => {
                             You can also start your own make-up saloon and earn handsomely.
                         </p>
                     </div>
-                    <div className="col-md-6 LandingCoursesBeautyCulture"/>
+                    <div className="col-xl-6 LandingCoursesBeautyCulture hide-lg"/>
                 </div>
             </div>
         </div>

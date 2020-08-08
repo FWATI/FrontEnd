@@ -16,11 +16,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && echo '/* /index.html 200' | cat >build/_redirects",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,9 +37,7 @@
   },
   "description": "Website for Future Ace Technica Institute",
   "main": "index.js",
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
-  },
+  "devDependencies": {},
   "keywords": [
     "React",
     "Education",
@@ -55,6 +51,5 @@
   },
   "bugs": {
     "url": "https://github.com/PrashubhAtri/FWATI/issues"
-  },
-  "homepage": "https://github.com/PrashubhAtri/FWATI"
+  }
 }

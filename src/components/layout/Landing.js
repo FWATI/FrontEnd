@@ -6,7 +6,7 @@ const Landing = () => {
             <div className="grad container-fluid">
                 <div className="row my_h">
                     <div className="col-md-12 text-center text-light">
-                        <div className="display-1 my_heading">
+                        <div className="my_heading">
                             Welcome to <span className="text-dark-red">Future Ace</span>
                         </div>
                         <div className="my_heading2">

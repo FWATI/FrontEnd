@@ -129,6 +129,7 @@ a {
 }
 .my_heading{
     padding-top: 25vh;
+    font-size: 10vh;
 }
 .my_heading2{
     padding-top: 5vh;
@@ -162,11 +163,6 @@ a {
         display: none;
     }
 }
-@media screen and (max-width: 768px){
-    .hide-md{
-        display: none;
-    }
-}
 @media screen and (max-width: 992px){
     .hide-lg{
         display: none;
@@ -174,10 +170,44 @@ a {
     .show-lg{
         display: block;
     }
+    .heading-testimonials{
+        font-family: 'Lemonada', cursive;
+        font-size: 8vh;
+    }
+    .my_heading{
+        padding-top: 25vh;
+        font-size: 8vh;
+    }
+}
+@media screen and (max-width: 768px){
+    .hide-md{
+        display: none;
+    }
+    .heading-testimonials{
+        font-family: 'Lemonada', cursive;
+        font-size: 5vh;
+    }
+    .bg-img-testimonials{
+        background-image: url("./resources/images/testimonials_small.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    .my_heading{
+        padding-top: 25vh;
+        font-size: 6vh;
+    }
 }
 @media screen and (min-width: 992px){
     .my_h{
         height: 85vh;
+    }
+}
+@media screen and (max-width: 330px){
+    .my_heading{
+        padding-top: 25vh;
+        font-size: 6vh;
     }
 }
 @media screen and (max-width: 500px){
@@ -185,6 +215,10 @@ a {
         width: 100vw;
         margin: 0px;
         padding: 0px;
+    }
+    .my_heading{
+        padding-top: 25vh;
+        font-size: 5vh;
     }
     .footer-logo{
         width: 100vw;

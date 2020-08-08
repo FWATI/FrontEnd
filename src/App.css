@@ -6,7 +6,7 @@ a {
     color: gray;
 }
 .my_h{
-    height: 85vh;
+    height: auto;
 }
 .grad{
     background-image: linear-gradient(to top, rgba(0,0,0,0.90),rgba(0,0,0,0.90));
@@ -149,6 +149,9 @@ a {
     font-family: 'Lemonada', cursive;
     font-size: 10vh;
 }
+.show-lg{
+    display: none;
+}
 #footer{
     background-image: url("./resources/images/Footer.jpg");
     background-repeat: no-repeat;
@@ -162,6 +165,19 @@ a {
 @media screen and (max-width: 768px){
     .hide-md{
         display: none;
+    }
+}
+@media screen and (max-width: 992px){
+    .hide-lg{
+        display: none;
+    }
+    .show-lg{
+        display: block;
+    }
+}
+@media screen and (min-width: 992px){
+    .my_h{
+        height: 85vh;
     }
 }
 @media screen and (max-width: 500px){

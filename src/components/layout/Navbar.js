@@ -27,7 +27,7 @@ const NavBar = (props) => {
                 </div>
                 <div className="col-lg-8 text-center">
                     <Navbar color="light" light expand="md">
-                        <NavbarBrand href="/" className="hide-md">Home</NavbarBrand>
+                        <NavbarBrand href="/">Home</NavbarBrand>
                         <NavbarToggler onClick={toggle} />
                         <Collapse isOpen={isOpen} navbar>
                             <Nav className="mr-auto" navbar>

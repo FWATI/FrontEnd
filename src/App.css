@@ -204,15 +204,15 @@ a {
         height: 85vh;
     }
 }
-@media screen and (max-width: 330px){
+@media screen and (max-width: 430px){
     .my_heading{
         padding-top: 25vh;
-        font-size: 6vh;
+        font-size: 7vh;
     }
 }
 @media screen and (max-width: 500px){
     .logo {
-        width: 100vw;
+        width: auto;
         margin: 0px;
         padding: 0px;
     }

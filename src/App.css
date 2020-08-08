@@ -48,7 +48,7 @@ a {
     background-size: cover;
 }
 .my_container{
-    height: 350vh;
+    height: auto;
 }
 .my_text{
     font-size: 2.5vh;
@@ -140,6 +140,14 @@ a {
 .content_list{
     font-size: 2vh;
     padding: 5px;
+}
+.avatar-testimonials{
+    height: 300px;
+    width: 250px;
+}
+.heading-testimonials{
+    font-family: 'Lemonada', cursive;
+    font-size: 10vh;
 }
 #footer{
     background-image: url("./resources/images/Footer.jpg");

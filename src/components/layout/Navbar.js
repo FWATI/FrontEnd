@@ -17,41 +17,43 @@ const NavBar = (props) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div className="container-fluid bg-light">
-            <div className="row">
-                <div className="col-md-1"/>
-                <div className="col-xl-3 text-center p-0 m-0">
-                    <Link to='/'>
-                        <img src={logo} className="logo" alt=""/>
-                    </Link>
-                </div>
-                <div className="col-lg-8 text-center">
-                    <Navbar color="light" light expand="md">
-                        <NavbarBrand href="/">Home</NavbarBrand>
-                        <NavbarToggler onClick={toggle} />
-                        <Collapse isOpen={isOpen} navbar>
-                            <Nav className="mr-auto" navbar>
-                                <NavItem>
-                                    <NavLink href="/about">About</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink href="/contactUs">Contact Us</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink href="/courses">Courses</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink href="/foundersdesk">Founders Desk</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink href="/gallery">Gallery</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink href="/testimonials">Testimonials</NavLink>
-                                </NavItem>
-                            </Nav>
-                        </Collapse>
-                    </Navbar>
+        <div>
+            <div className="container-fluid bg-light">
+                <div className="row">
+                    <div className="col-md-1"/>
+                    <div className="col-xl-3 text-center p-0 m-0">
+                        <Link to='/'>
+                            <img src={logo} className="logo" alt=""/>
+                        </Link>
+                    </div>
+                    <div className="col-lg-8 text-center">
+                        <Navbar color="light" light expand="md">
+                            <NavbarBrand href="/">Home</NavbarBrand>
+                            <NavbarToggler onClick={toggle} />
+                            <Collapse isOpen={isOpen} navbar>
+                                <Nav className="mr-auto" navbar>
+                                    <NavItem>
+                                        <NavLink href="/about">About</NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavLink href="/contactUs">Contact Us</NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavLink href="/courses">Courses</NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavLink href="/foundersdesk">Founders Desk</NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavLink href="/gallery">Gallery</NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavLink href="/testimonials">Testimonials</NavLink>
+                                    </NavItem>
+                                </Nav>
+                            </Collapse>
+                        </Navbar>
+                    </div>
                 </div>
             </div>
         </div>

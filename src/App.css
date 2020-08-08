@@ -105,7 +105,7 @@ a {
     color: rgb(194, 0, 0);
 }
 .desc_courses{
-    font-size: 2vh;
+    font-size: 3vh;
 }
 .sep{
     height: 2vh;
@@ -191,7 +191,7 @@ a {
         font-size: 5vh;
     }
     .bg-img-testimonials{
-        background-image: url("./resources/images/testimonials_small.jpg");
+        background-image: linear-gradient(to top, rgba(0,0,0,0.90),rgba(0,0,0,0.90));
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;

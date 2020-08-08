@@ -18,22 +18,22 @@ const Footer = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-3">
-                                <a href="https://www.facebook.com/pages/category/Educational-Consultant/Future-Ace-Delhi-1716248581795109/" target="_blank">
+                                <a href="https://www.facebook.com/pages/category/Educational-Consultant/Future-Ace-Delhi-1716248581795109/" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-facebook-square fa-3x"/><br/>
                                 </a>
                             </div>
                             <div className="col-md-3">
-                                <a href="https://www.instagram.com/futureacetechnicalinstitute/" target="_blank">
+                                <a href="https://www.instagram.com/futureacetechnicalinstitute/" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-instagram fa-3x"/><br/>
                                 </a>
                             </div>
                             <div className="col-md-3">
-                                <a href="https://twitter.com/FutureAceDelhi" target="_blank">
+                                <a href="https://twitter.com/FutureAceDelhi" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-twitter-square fa-3x"/><br/>
                                 </a>
                             </div>
                             <div className="col-md-3">
-                                <a href="https://www.youtube.com/channel/UCCFqlwSG_WRv4b0Zyorbaog" target="_blank">
+                                <a href="https://www.youtube.com/channel/UCCFqlwSG_WRv4b0Zyorbaog" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-youtube fa-3x"/><br/>
                                 </a>
                             </div>

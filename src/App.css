@@ -153,6 +153,9 @@ a {
 .show-lg{
     display: none;
 }
+.text-contactbar{
+    font-size: 2vh;
+}
 #footer{
     background-image: url("./resources/images/Footer.jpg");
     background-repeat: no-repeat;
@@ -197,6 +200,9 @@ a {
     .my_heading{
         padding-top: 25vh;
         font-size: 6vh;
+    }
+    .text-contactbar{
+        font-size: 3vh;
     }
 }
 @media screen and (min-width: 992px){

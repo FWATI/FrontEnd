@@ -173,6 +173,12 @@ a {
     border: 1px solid lightgray;
     padding: 3vh;
 }
+.franchise-head{
+    font-size: 5vh;
+}
+.franchise-desc{
+    font-size: 2vh;
+}
 #footer{
     background-image: url("./resources/images/Footer.jpg");
     background-repeat: no-repeat;

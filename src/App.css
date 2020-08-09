@@ -162,6 +162,17 @@ a {
     overflow: hidden;
     line-height: 0px;
 }
+.form-group{
+    margin: 3px;
+}
+.btn{
+    margin: 5px;
+}
+.box-from{
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    padding: 3vh;
+}
 #footer{
     background-image: url("./resources/images/Footer.jpg");
     background-repeat: no-repeat;

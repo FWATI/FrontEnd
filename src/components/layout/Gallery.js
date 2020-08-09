@@ -1,7 +1,7 @@
 import React from "react";
-import Pic1 from "../../resources/images/1 (1).JPG";
-import Pic2 from "../../resources/images/1 (2).jpg";
-import Pic3 from "../../resources/images/1 (3).jpg"
+// import Pic1 from "../../resources/images/1 (1).JPG";
+// import Pic2 from "../../resources/images/1 (2).jpg";
+// import Pic3 from "../../resources/images/1 (3).jpg"
 
 
 
@@ -13,13 +13,13 @@ const Gallery = () => {
                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src={Pic1} className="d-block w-100" alt="..."/>
+                                {/*<img src={Pic1} className="d-block w-100" alt="..."/>*/}
                             </div>
                             <div className="carousel-item">
-                                <img src={Pic2} className="d-block w-100" alt="..."/>
+                                {/*<img src={Pic2} className="d-block w-100" alt="..."/>*/}
                             </div>
                             <div className="carousel-item">
-                                <img src={Pic3} className="d-block w-100" alt="..."/>
+                                {/*<img src={Pic3} className="d-block w-100" alt="..."/>*/}
                             </div>
                         </div>
                         <a className="carousel-control-prev" href="#carouselExampleControls" role="button"

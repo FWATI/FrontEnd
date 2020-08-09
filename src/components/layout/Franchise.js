@@ -1,26 +1,60 @@
 import React from "react";
-import Pic from "../../resources/images/aboutus.jpg"
 
 const Franchise = () => {
     return (
-        <div className="container p-5">
-            <div className="row">
-                <div className="col-12">
-                    <div className="card mb-3">
-                        <div className="row no-gutters">
-                            <div className="col-md-4">
-                                <img src={Pic} className="card-img" alt="..."/>
+        <div className="grad text-light">
+            <div className="container p-5">
+                <div className="row">
+                    <div className="col-xl-6">
+                        Advantages
+                    </div>
+                    <div className="col-xl-6 box-from">
+                        <form name="franchise" method="POST" data-netlify="true">
+                            <div className="form-group">
+                                <input type="text" name="name" className="form-control" placeholder="Applicant Name: "/>
                             </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a
-                                        natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p className="card-text"><small className="text-muted">Last updated 3 mins
-                                        ago</small></p>
-                                </div>
+                            <div className="form-group">
+                                <input type="text" name="fatherName" className="form-control" placeholder="Father/Husband Name: "/>
                             </div>
-                        </div>
+                            <div className="form-group">
+                                <select className="form-control" id="exampleFormControlSelect1" name="gender">
+                                    <option>--Select Gender--</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+                            <div className="form-group">
+                                <input type="date" name="dob" placeholder="DOB" className="form-control"/>
+                            </div>
+                            <div className="form-group">
+                                <input type="email" name="email" placeholder="Email" className="form-control"/>
+                            </div>
+                            <div className="form-group">
+                                <input type="tel" name="contactNumber" placeholder="Contact Number" className="form-control"/>
+                            </div>
+                            <div className="form-group">
+                                <input type="tel" name="altContactNumber" placeholder="Alternative Contact Number" className="form-control"/>
+                            </div>
+                            <div className="form-group">
+                                <input type="text" name="qualification" placeholder="Highest Qualification" className="form-control"/>
+                            </div>
+                            <div className="form-group">
+                                <input type="text" name="centreName" placeholder="Centre Name" className="form-control"/>
+                            </div>
+                            <div className="form-group">
+                                <input type="text" name="proposedCentreName" placeholder="Proposed Centre Name" className="form-control"/>
+                            </div>
+                            <div className="form-group">
+                                <input type="text" name="address" className="form-control" placeholder="Address"/>
+                            </div>
+                            <div className="form-group">
+                                <input type="text" name="info" className="form-control" placeholder="Any other Info"/>
+                            </div>
+                            <div data-netlify-recaptcha="true"/>
+                            <div className="text-center">
+                                <button type="submit" className="btn btn-success">Submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

@@ -50,7 +50,7 @@ const Franchise = () => {
                             <div className="form-group">
                                 <input type="text" name="info" className="form-control" placeholder="Any other Info"/>
                             </div>
-                            <div data-netlify-recaptcha="true"/>
+                            <div data-netlify-recaptcha="true"></div>
                             <div className="text-center">
                                 <button type="submit" className="btn btn-success">Submit</button>
                             </div>

@@ -1,0 +1,278 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    color: gray;
+}
+.my_h{
+    height: auto;
+}
+.grad{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.90),rgba(0,0,0,0.90));
+}
+.grad-red{
+    background-image: linear-gradient(to top, rgba(194,0,0,0.75),rgba(194,0,0,0.90));
+}
+.grad-blue{
+    background-image: linear-gradient(to top, rgba(31,121,173,0.75),rgba(31,121,173,0.90));
+}
+.logo {
+    height: 9vh;
+    margin: 1vh;
+}
+.aboutus {
+    height: 35vh;
+    margin: 3vh;
+}
+.text-parallel-to-abt-img{
+    font-size: 2.5vh;
+}
+.text-below-abt-img{
+    font-size: 2vh;
+}
+.footer-logo{
+    height: 10vh;
+}
+.my_pad{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.bg-img-testimonials{
+    background-image: url("./resources/images/testimonials.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.my_container{
+    height: auto;
+}
+.my_text{
+    font-size: 2.5vh;
+}
+.pad_footer{
+    padding-left: 3vw;
+}
+.LandingCoursesCC{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.85)), url("./resources/images/ComputerCourse2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+.LandingCoursesAccounting{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.2),rgba(0,0,0,0.65)),url("./resources/images/accounting.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+.LandingCoursesFashionDesign{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.85)),url("./resources/images/FashionDesinging.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+.LandingCoursesSpokenEnglish{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.85)),url("./resources/images/SpokenEnglih&personalityDevelopment.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+.LandingCoursesECCE {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85)), url("./resources/images/Classroon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+.LandingCoursesBeautyCulture {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85)), url("./resources/images/BeautyCulture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+.text-cyan{
+    color: rgb(31, 121, 173);
+}
+.text-dark-red{
+    color: rgb(194, 0, 0);
+}
+.desc_courses{
+    font-size: 3vh;
+}
+.sep{
+    height: 2vh;
+}
+.bg-cyan{
+    background-color: rgb(31, 121, 173);
+}
+.bg-red{
+    background-color: rgb(194, 0, 0);
+}
+.my-red-header{
+    background-color: rgb(194, 0, 0);
+    height: 1vh;
+}
+.my-blue-header{
+    background-color: rgb(31, 121, 173);
+    height: 1vh;
+}
+.my-display-2{
+    font-size: 8vh;
+}
+.my_heading{
+    padding-top: 25vh;
+    font-size: 10vh;
+}
+.my_heading2{
+    padding-top: 5vh;
+    font-size: 4vh;
+}
+.coursesTitle{
+    font-size: 4vh;
+}
+.content_list{
+    font-size: 2vh;
+    padding: 5px;
+}
+.avatar-testimonials{
+    height: 300px;
+    width: 250px;
+}
+.heading-testimonials{
+    font-family: 'Bitter', serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10vh;
+}
+.show-lg{
+    display: none;
+}
+.text-contactbar{
+    font-size: 2vh;
+}
+.display-none{
+    height: 0px;
+    overflow: hidden;
+    line-height: 0px;
+}
+.form-group{
+    margin: 3px;
+}
+.btn{
+    margin: 5px;
+}
+.box-from{
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    padding: 3vh;
+}
+.franchise-head{
+    font-size: 5vh;
+}
+.franchise-desc{
+    font-size: 2vh;
+}
+#footer{
+    background-image: url("./resources/images/Footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 692px){
+    .hide-sm{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px){
+    .hide-lg{
+        display: none;
+    }
+    .show-lg{
+        display: block;
+    }
+    .heading-testimonials{
+        font-family: 'Lemonada', cursive;
+        font-size: 8vh;
+    }
+    .my_heading{
+        padding-top: 25vh;
+        font-size: 8vh;
+    }
+}
+@media screen and (max-width: 768px){
+    .hide-md{
+        display: none;
+    }
+    .heading-testimonials{
+        font-family: 'Lemonada', cursive;
+        font-size: 5vh;
+    }
+    .bg-img-testimonials{
+        background-image: linear-gradient(to top, rgba(0,0,0,0.90),rgba(0,0,0,0.90));
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    .my_heading{
+        padding-top: 25vh;
+        font-size: 6vh;
+    }
+    .text-contactbar{
+        font-size: 3vh;
+    }
+}
+@media screen and (min-width: 992px){
+    .my_h{
+        height: 85vh;
+    }
+}
+@media screen and (max-width: 430px){
+    .my_heading{
+        padding-top: 25vh;
+        font-size: 7vh;
+    }
+}
+@media screen and (max-width: 500px){
+    .logo {
+        width: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .my_heading{
+        padding-top: 25vh;
+        font-size: 5vh;
+    }
+    .footer-logo{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+    }
+    .LandingCoursesCC{
+        background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.85)), url("./resources/images/ComputerCourse2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+    }
+    .LandingCoursesAccounting{
+        background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.85)),url("./resources/images/ComputerCourse1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+    }
+    .LandingCoursesFashionDesign{
+        background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.85)),url("./resources/images/FashionDesinging.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+    }
+}

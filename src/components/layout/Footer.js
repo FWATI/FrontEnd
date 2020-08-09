@@ -66,7 +66,7 @@ const Footer = () => {
                         <a href="/gallery" className="text-light">
                             | Gallery |
                         </a>
-                        <a href="/franchise" className="text-dark-red">
+                        <a href="https://franchiseform.netlify.app/" className="text-dark-red">
                             | Franchise |
                         </a>
                         <a href="/contactUs" className="text-light">

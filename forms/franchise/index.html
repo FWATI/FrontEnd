@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54685f8144.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid grad">
+<!--        Contact Bar     -->
+        <div class="container-fluid p-0 grad text-contactbar text-light">
+            <div class="row p-0">
+                <div class="col-6 p-0 text-center">
+                    <a href="mailto:futureacedelhi@gmail.com"
+                       class="text-decoration-none text-light"
+                    >
+                        <i class="fas fa-envelope"></i><span>  </span>
+                        <span class="hide-sm">
+                            futureacedelhi@gmail.com
+                        </span>
+                    </a>
+                </div>
+                <div class="col-6 p-0 text-center">
+                    <a href="tel:9873731755"
+                       class="text-decoration-none text-light"
+                    >
+                        <i class="fas fa-phone-alt"></i><span>  </span>
+                        <span class="hide-sm">
+                            +91 9873731755
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--        Navbar      -->
+        <div class="container-fluid bg-light">
+            <div class="row">
+                <div class="col-xl-1"></div>
+                <div class="col-xl-3 text-center p-0 m-0">
+                    <a href="https://futureace.netlify.app/">
+                        <img src="./logo.jpeg" class="logo" alt="">
+                    </a>
+                </div>
+                <div class="col-xl-8 text-center">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="https://futureace.netlify.app/">Home</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://futureace.netlify.app/about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://futureace.netlify.app/courses">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://futureace.netlify.app/testimonials">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://futureace.netlify.app/gallery">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://franchiseform.netlify.app/">Franchise</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://futureace.netlify.app/contactUs">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+<!--        Form and Description        -->
+        <div class="grad text-light">
+            <div class="container-fluid p-5">
+                <div class="row">
+                    <div class="col-xl-6 text-center p-4">
+                        <div class="franchise-head text-dark-red">Business Opportunities:</div>
+                        <div class="franchise-desc">
+                            Anyone having a passion for education and training could partner with us as a franchise.
+                            As a Future Ace franchise you will be involved in more than simply running a learning center,
+                            you will have an active role in creating positive change in students and their families life.
+                            If you are interested by what we have achieved and would love to become a part of the growing network,
+                            Contact Us by filling out this form or Call on
+                            <a href="tel:9873731755" class="text-light text-cyan">+91-9873731755</a>.
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 box-from">
+                        <form method="POST" data-netlify="true">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control"
+                                       placeholder="Applicant Name: "/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="fatherName" class="form-control"
+                                       placeholder="Father/Husband Name: "/>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control" id="exampleFormControlSelect1" name="gender">
+                                    <option>--Select Gender--</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="date" name="dob" placeholder="DOB" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Email" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="contactNumber" placeholder="Contact Number"
+                                       class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="altContactNumber" placeholder="Alternative Contact Number"
+                                       class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="qualification" placeholder="Highest Qualification"
+                                       class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="centreName" placeholder="Centre Name"
+                                       class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="proposedCentreName" placeholder="Proposed Centre Name"
+                                       class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="address" class="form-control" placeholder="Address"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="info" class="form-control"
+                                       placeholder="Any other Info"/>
+                            </div>
+                            <button type="submit" class="btn btn-success form-control">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+<!--        Footer      -->
+        <div class="container-fluid grad text-light">
+            <div class="row text-center">
+                <div class="col-6 text-left">
+                    <div class="pad_footer">
+                        <ul>
+                            <li>
+                                <b>Shahdara Branch:</b><br>
+                                B-2/1449, Durga Puri Chowk<br>
+                                Shahdara, Delhi-110093<br>
+                            </li>
+                            <li>
+                                <b>Laxmi Nagar Branch:</b><br>
+                                WA-119, First Floor<br>
+                                Opposite Shakrpur School Block <br>
+                                Delhi - 110092<br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 p-1">
+                                <a href="https://www.facebook.com/pages/category/Educational-Consultant/Future-Ace-Delhi-1716248581795109/" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-facebook-square fa-3x"></i><br>
+                                </a>
+                            </div>
+                            <div class="col-md-3 p-1">
+                                <a href="https://www.instagram.com/futureacetechnicalinstitute/" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-instagram fa-3x"></i><br>
+                                </a>
+                            </div>
+                            <div class="col-md-3 p-1">
+                                <a href="https://twitter.com/FutureAceDelhi" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-twitter-square fa-3x"></i><br>
+                                </a>
+                            </div>
+                            <div class="col-md-3 p-1">
+                                <a href="https://www.youtube.com/channel/UCCFqlwSG_WRv4b0Zyorbaog" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-youtube fa-3x"></i><br>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12 text-dark-red">
+                    <a href="/" class="text-light">
+                        Home |
+                    </a>
+                    <a href="/about" class="text-dark-red">
+                        | About |
+                    </a>
+                    <a href="/courses" class="text-light">
+                        | Courses |
+                    </a>
+                    <a href="/testimonials" class="text-dark-red">
+                        | Testimonials |
+                    </a>
+                    <a href="/gallery" class="text-light">
+                        | Gallery |
+                    </a>
+                    <a href="/franchise" class="text-dark-red">
+                        | Franchise |
+                    </a>
+                    <a href="/contactUs" class="text-light">
+                        | Contact Us
+                    </a>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                    Created by Prashubh Atri
+                    <a href="https://github.com/PrashubhAtri"> <i class="fab fa-github text-light fa-md"></i> </a><br/>
+                    Copyright <i class="far fa-copyright"></i> 2020  All Rights reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

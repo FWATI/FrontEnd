@@ -20,13 +20,13 @@ const NavBar = (props) => {
         <div>
             <div className="container-fluid bg-light">
                 <div className="row">
-                    <div className="col-md-1"/>
+                    <div className="col-xl-1"/>
                     <div className="col-xl-3 text-center p-0 m-0">
                         <Link to='/'>
                             <img src={logo} className="logo" alt=""/>
                         </Link>
                     </div>
-                    <div className="col-lg-8 text-center">
+                    <div className="col-xl-8 text-center">
                         <Navbar color="light" light expand="md">
                             <NavbarBrand href="/">Home</NavbarBrand>
                             <NavbarToggler onClick={toggle} />
@@ -45,7 +45,7 @@ const NavBar = (props) => {
                                         <NavLink href="/gallery">Gallery</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="/franchise">Franchise</NavLink>
+                                        <NavLink href="https://franchiseform.netlify.app/">Franchise</NavLink>
                                     </NavItem>
                                     <NavItem>
                                         <NavLink href="/contactUs">Contact Us</NavLink>

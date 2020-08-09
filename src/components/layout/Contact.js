@@ -3,7 +3,12 @@ import React from "react";
 const ContactUs = () => {
     return (
         <div>
-            Contact Us
+            <div className="container">
+                <div className="row"></div>
+                <div className="row">
+                    Map
+                </div>
+            </div>
         </div>
     )
 }

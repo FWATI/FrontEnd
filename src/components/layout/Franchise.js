@@ -9,7 +9,7 @@ const Franchise = () => {
                         Advantages
                     </div>
                     <div className="col-xl-6 box-from">
-                        <form name="franchise" method="POST" data-netlify="true">
+                        <form name="franchise" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                             <div className="form-group">
                                 <input type="text" name="name" className="form-control" placeholder="Applicant Name: "/>
                             </div>

@@ -21,7 +21,7 @@ import Pic17 from "../../resources/images/1 (17).jpeg";
 const Gallery = () => {
     return (
         <div className="container">
-            <div className="row">
+            <div className="row gallery_cont">
                 <div className="col-md-12">
                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                         <div className="carousel-inner">

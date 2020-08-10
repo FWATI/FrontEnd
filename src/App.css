@@ -179,6 +179,13 @@ a {
 .franchise-desc{
     font-size: 2vh;
 }
+.gallery_cont{
+    height: 60vh;
+}
+.carousel-item{
+    height: 55vh;
+    width: auto;
+}
 #footer{
     background-image: url("./resources/images/Footer.jpg");
     background-repeat: no-repeat;

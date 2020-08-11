@@ -10,7 +10,7 @@ const ContactUs = () => {
                         <div className="h2">Location</div>
                         B-2/1449, Durga Puri Chowk<br />
                         Shahdara, Delhi-110093<br />
-                        <a href="https://www.google.com/maps/dir//Future+Ace+Technical+Institute,+1449%2FB2+Durgapuri+extension+Durgapuri+Crossing+(,+above+siyaram+showroom,+West+Jyoti+Nagar,+Durgapuri+Extension,+Durga+Puri,+Shahdara,+Delhi+110093/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x390cfb88ca412049:0x130f4a16cc1846cd?sa=X&ved=0ahUKEwjtuK3espLrAhWpILcAHa-HA7gQ48ADCCcwAA" target="_blank" className="text-light">
+                        <a href="https://www.google.com/maps/dir//Future+Ace+Technical+Institute,+1449%2FB2+Durgapuri+extension+Durgapuri+Crossing+(,+above+siyaram+showroom,+West+Jyoti+Nagar,+Durgapuri+Extension,+Durga+Puri,+Shahdara,+Delhi+110093/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x390cfb88ca412049:0x130f4a16cc1846cd?sa=X&ved=0ahUKEwjtuK3espLrAhWpILcAHa-HA7gQ48ADCCcwAA" target="_blank" className="text-light" rel="noopener noreferrer">
                             Click for Directions
                             <i className="fas fa-location-arrow text-light p-3"/>
                         </a>

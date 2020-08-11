@@ -211,6 +211,12 @@ a {
         padding-top: 25vh;
         font-size: 8vh;
     }
+
+}
+@media screen and (max-width: 1200px){
+    .aboutus {
+        width: 90%;
+    }
 }
 @media screen and (max-width: 768px){
     .hide-md{

@@ -38,12 +38,12 @@ const NavBar = (props) => {
                                     <NavItem>
                                         <NavLink href="/courses">Courses</NavLink>
                                     </NavItem>
-                                    <NavItem>
+                                    {/* <NavItem>
                                         <NavLink href="/testimonials">Testimonials</NavLink>
                                     </NavItem>
                                     <NavItem>
                                         <NavLink href="/gallery">Gallery</NavLink>
-                                    </NavItem>
+                                    </NavItem> */}
                                     <NavItem>
                                         <NavLink href="https://franchiseform.netlify.app/">Franchise</NavLink>
                                     </NavItem>
